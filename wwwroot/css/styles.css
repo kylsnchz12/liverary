@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6F8;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 254px;
+}
+
+.search-bar button img {
+    background: transparent; 
+    border: none; 
+    width: 20px; 
+    height: 20px; 
+    padding: 0;
+    margin-right: 8px; 
+    cursor: pointer;
+}
+
+.search-bar .input-container {
+    display: flex;
+    align-items: center;
+    background: rgba(77, 31, 168, 0.87);
+    border: 1px rgba(77, 31, 168, 0.87);
+    border-radius: 12px;
+    padding: 8px;
+    width: 380px;
+    margin-right: 500px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 100%; 
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: white; 
+    padding: 8px;
+}
+
+.custom-heading {
+    color: #4D1FA8; 
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.category-div {
+    width: 342px; 
+    height: 65px; 
+    background-color: black; 
+    border-radius: 12px; 
+    position: relative;
+    padding-top: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+.category-div .text {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    left: 10px; /* Adjust the distance from the left as needed */
+    color: white; /* Change the text color as needed */
+    font-size: 14px; /* Change the font size as needed */
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+.main-div {
+    padding-left: 25px;
+}
+
+.div-row {
+    white-space: nowrap;
+}
+
+.scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 18px;
+}
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+.title-div {
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.training-div {
+    width: 342px;
+    height: 65px;
+    background-color: darkgreen;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.upper-right {
+    /* You can add styles for the upper-right text here */
+    background: transparent;
+    align-self: flex-start;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    /* You can add styles for the bottom-left section here */
+    background: transparent;
+}
+
+h2 {
+    font-size: 18px; /* Adjust the title font size as needed */
+    color: white; /* Change the text color as needed */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-size: 14px; /* Adjust the description font size as needed */
+    color: white; /* Change the text color as needed */
+    margin: 0; /* Remove default margin */
+}

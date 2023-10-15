@@ -53,6 +53,38 @@
       "PackagePath": "staticwebassets/images/search.png"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training1.png",
+      "PackagePath": "staticwebassets/images/training1.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training2.png",
+      "PackagePath": "staticwebassets/images/training2.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training3.png",
+      "PackagePath": "staticwebassets/images/training3.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training4.png",
+      "PackagePath": "staticwebassets/images/training4.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training5.png",
+      "PackagePath": "staticwebassets/images/training5.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training6.png",
+      "PackagePath": "staticwebassets/images/training6.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training7.png",
+      "PackagePath": "staticwebassets/images/training7.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/training8.png",
+      "PackagePath": "staticwebassets/images/training8.png"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

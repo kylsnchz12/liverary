@@ -84,34 +84,10 @@ input::placeholder {
     font-weight: 600;
 }
 
-
-.main-div {
-    padding-left: 25px;
-}
-
-.div-row {
-    white-space: nowrap;
-}
-
-.scrollable-container {
-    overflow-x: auto;
-    white-space: nowrap;
-    padding-top: 18px;
-}
-
-.scrollable-container::-webkit-scrollbar {
-    display: none;
-}
-
-.title-div {
-    padding-top: 12px;
-    padding-left: 12px;
-}
-
 .training-div {
     width: 342px;
-    height: 65px;
-    background-color: darkgreen;
+    height: 180px;
+    background-color: black;
     border-radius: 12px;
     position: relative;
     display: flex;
@@ -123,27 +99,76 @@ input::placeholder {
     font-weight: 600;
 }
 
-.upper-right {
-    /* You can add styles for the upper-right text here */
-    background: transparent;
-    align-self: flex-start;
-}
-
-.bottom-left {
+.upper-row {
     display: flex;
     flex-direction: column;
-    /* You can add styles for the bottom-left section here */
+    align-items: flex-start;
     background: transparent;
+    margin-left: 8px;
+    margin-right: 3px;
 }
 
+.title-upper-right {
+    background: transparent;
+    align-self: flex-end;
+}
+
+.text-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-grow: 1;
+    background: none;
+}
+
+
 h2 {
-    font-size: 18px; /* Adjust the title font size as needed */
-    color: white; /* Change the text color as needed */
-    margin: 0; /* Remove default margin */
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    margin: 0;
 }
 
 p {
-    font-size: 14px; /* Adjust the description font size as needed */
-    color: white; /* Change the text color as needed */
-    margin: 0; /* Remove default margin */
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+
+.main-div {
+    padding-left: 25px;
+}
+
+.div-row {
+    white-space: nowrap;
+}
+
+.div-training-row {
+    flex: 0 0 auto;
+    padding-left: 10px;
+}
+
+.scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 18px;
+}
+
+.scrollable-container2 {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 18px;
+    /* gap: 10px;  */
+}
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable-container2::-webkit-scrollbar {
+    display: none;
 }

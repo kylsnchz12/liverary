@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OboMxIMMVRiiziwOJuVwIjIkKRV3CDkkxEQFOgQf+jhOe9buSszKrT6ogSPVAHmYNeST6sr/EiwJXNeLVJG7WQ==",
+  "dgSpecHash": "TirMjR3BY5J6NlflZu9zvLWaPCYjS4hhER7a64Fi20JwqxlycaJXmEVZH+l8NjuGxEZpjcgGptMK0V/6VQ6Pkw==",
   "success": true,
-  "projectFilePath": "/Users/kyle/Desktop/Code/dotNET/test/test.csproj",
+  "projectFilePath": "/Users/kyle/Desktop/GitHub/liverary/test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

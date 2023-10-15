@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/test.bundle.scp.css"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -21,8 +25,28 @@
       "PackagePath": "staticwebassets/images/aws_bg.png"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/google_bg.png",
+      "PackagePath": "staticwebassets/images/google_bg.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/js_bg.png",
+      "PackagePath": "staticwebassets/images/js_bg.png"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/logo.png",
       "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/ms_bg.png",
+      "PackagePath": "staticwebassets/images/ms_bg.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/oracle_bg.png",
+      "PackagePath": "staticwebassets/images/oracle_bg.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/python_bg.png",
+      "PackagePath": "staticwebassets/images/python_bg.png"
     },
     {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/search.png",

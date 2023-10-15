@@ -85,7 +85,7 @@ input::placeholder {
 }
 
 .training-div {
-    width: 342px;
+    width: 335px;
     height: 180px;
     background-color: black;
     border-radius: 12px;
@@ -93,7 +93,7 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 12px;
+    padding: 10px;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -103,14 +103,15 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: transparent;
+    background-color: transparent;
     margin-left: 8px;
-    margin-right: 3px;
+    width: 300px;
 }
 
 .title-upper-right {
     background: transparent;
     align-self: flex-end;
+    width: fit-content;
 }
 
 .text-bottom-left {
@@ -122,18 +123,30 @@ input::placeholder {
     background: none;
 }
 
+.text-bottom-left p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title-right {
+    font-weight: 100;
+    font-size: 15px;
+}
+
 
 h2 {
     font-size: 18px;
     color: white;
-    background-color: black;
+    background-color: transparent;
     margin: 0;
 }
 
 p {
     font-size: 14px;
     color: white;
-    background-color: black;
+    font-weight: 100;
+    background-color: transparent;
     margin: 0;
 }
 
@@ -162,7 +175,7 @@ p {
     overflow-x: auto;
     white-space: nowrap;
     padding-top: 18px;
-    /* gap: 10px;  */
+    gap: 10px; 
 }
 
 .scrollable-container::-webkit-scrollbar {

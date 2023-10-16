@@ -75,10 +75,10 @@ input::placeholder {
 
 .category-div .text {
     position: absolute;
-    bottom: 10px; /* Adjust the distance from the bottom as needed */
-    left: 10px; /* Adjust the distance from the left as needed */
-    color: white; /* Change the text color as needed */
-    font-size: 14px; /* Change the font size as needed */
+    bottom: 10px; 
+    left: 10px; 
+    color: white; 
+    font-size: 14px; 
     background: transparent;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -241,4 +241,111 @@ p {
 
 a {
     text-decoration: none;
+}
+
+.training-cover {
+    width: 100vw;
+    height: 232px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.star {
+    background: none;
+    margin-left: 2px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.star-row {
+    position: absolute;
+    background: none;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.category-div2 {
+    width: 170px; 
+    height: 42px; 
+    background-color: white; 
+    border-radius: 12px; 
+    position: relative;
+    padding: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+.category-div2 .text {
+    position: absolute;
+    color: white; 
+    font-size: 12px;
+    width: 170px; 
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.category-details2 {
+    margin-top: 12px;
+    margin-left: 12px;
+    padding-top: 16px;
+    padding-left: 16px;
+    flex: 1; 
+    margin-right: 12px;
+}
+
+.category-details2 h1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.left-details {
+    width: 646px;
+    height: auto;
+    padding: 10px;
+}
+
+.left-details p{
+    color: black;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.right-details {
+    background-color: #F5F6F8;
+    height: 500px;
+    filter: drop-shadow(0px -1px 10px rgba(0,0,0,0.25));
+    padding: 35px;
+}
+
+.topic-card {
+    background-color:rgba(94, 23, 235, 0.14000000059604645);
+    height:198px;
+    width:646px;
+    border-radius:12px;
+    padding: 15px;
+}
+
+.topic-card h1 {
+    background-color: transparent;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+.topic-card p {
+    color: black;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
 }

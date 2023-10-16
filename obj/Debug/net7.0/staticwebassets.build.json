@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v/NGb+MmKDgzx7UJzpsSsrCnPOrS6NAg7GeJ4MAWIg8=",
+  "Hash": "gf/61Y0Xh82gbkxHcEdnRPmkvbmNWWhAGHJGBwZ+Xd4=",
   "Source": "test",
   "BasePath": "_content/test",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/aws_bg.png"
+    },
+    {
+      "Identity": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/cover.png",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/",
+      "BasePath": "_content/test",
+      "RelativePath": "images/cover.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/cover.png"
     },
     {
       "Identity": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/google_bg.png",

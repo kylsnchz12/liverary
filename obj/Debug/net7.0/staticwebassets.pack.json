@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/images/aws_bg.png"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/cover.png",
+      "PackagePath": "staticwebassets/images/cover.png"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/wwwroot/images/google_bg.png",
       "PackagePath": "staticwebassets/images/google_bg.png"
     },

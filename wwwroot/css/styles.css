@@ -334,6 +334,7 @@ a {
     width:646px;
     border-radius:12px;
     padding: 15px;
+    margin-top: 15px;
 }
 
 .topic-card h1 {
@@ -353,9 +354,28 @@ a {
 .resource-button {
     height:40px;    
     width:294px;
+    display: flex;
+    align-items: center;
+    /* white-space: nowrap; */
     border-radius:12px;
     background-color: #4D1FA8;
-    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.button-image-view {
+    width: 19px; 
+    height: 13px;
+    margin-right: 12px;
+    background-color: transparent;
+    background-size: cover;
+}
+
+.button-image-download {
+    width: 17px; 
+    height: 17px;
+    margin-right: 12px; 
+    background-color: transparent;
+    background-size: cover;
 }
 
 .resource-button h1 {
@@ -363,6 +383,19 @@ a {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    margin-right: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 12px;
+    padding-top: 20px;
+    width:294px;
+}
+
+.resource-button button {
+    background: none;
+    border: none;
+    cursor: pointer;
     padding: 12px;
 }
 
@@ -371,5 +404,6 @@ a {
     overflow-x: auto; 
     white-space: nowrap;
     margin-top: 12px;
+    height: 50px;
     background-color: transparent;
 }

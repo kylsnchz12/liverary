@@ -153,6 +153,7 @@ p {
 
 .main-div {
     padding-left: 25px;
+    padding-bottom: 25px;
 }
 
 .div-row {
@@ -309,8 +310,7 @@ a {
 }
 
 .left-details {
-    width: 646px;
-    height: auto;
+    width: auto;
     padding: 10px;
 }
 
@@ -323,7 +323,7 @@ a {
 
 .right-details {
     background-color: #F5F6F8;
-    height: 500px;
+    height: 100vh;
     filter: drop-shadow(0px -1px 10px rgba(0,0,0,0.25));
     padding: 35px;
 }
@@ -348,4 +348,28 @@ a {
     color: black;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
+}
+
+.resource-button {
+    height:40px;    
+    width:294px;
+    border-radius:12px;
+    background-color: #4D1FA8;
+    margin-left: 8px;
+}
+
+.resource-button h1 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.horizontal-scroll-container {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+    margin-top: 12px;
+    background-color: transparent;
 }

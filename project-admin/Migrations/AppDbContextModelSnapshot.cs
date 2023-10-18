@@ -29,6 +29,10 @@ namespace project_admin.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.HasKey("UserID");
 
                     b.ToTable("Users");

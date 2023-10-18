@@ -11,8 +11,8 @@ using project_admin.Data;
 namespace project_admin.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231018140144_initialMigrations")]
-    partial class initialMigrations
+    [Migration("20231018160132_initialMigration")]
+    partial class initialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,6 +29,10 @@ namespace project_admin.Migrations
                         .HasColumnType("char(36)");
 
                     b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("longtext");
 

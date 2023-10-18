@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GEjRydBf/er3MWjq+Txo/rNuI0nfj5okMnmsqqetTGOXdJYWuh80Mm6TkO/NuXkzbGVO4uXZxczW0DrMYeVB4g==",
+  "dgSpecHash": "SCCO0G4BI54Nrf9HqAn4bg2QL4lguDoPkHJFcVMkr1a0Pdg6U1aCYWSVNF4jll4tO3ix/yc+BBiBB7VAPDTncw==",
   "success": true,
   "projectFilePath": "/Users/kyle/Desktop/GitHub/liverary/project-user/test.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "/Users/kyle/.nuget/packages/k4os.compression.lz4/1.3.5/k4os.compression.lz4.1.3.5.nupkg.sha512",
     "/Users/kyle/.nuget/packages/k4os.compression.lz4.streams/1.3.5/k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
     "/Users/kyle/.nuget/packages/k4os.hash.xxhash/1.0.8/k4os.hash.xxhash.1.0.8.nupkg.sha512",
+    "/Users/kyle/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "/Users/kyle/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "/Users/kyle/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/kyle/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/kyle/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",

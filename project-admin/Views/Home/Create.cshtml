@@ -1,3 +1,5 @@
+@model project_admin.Models.AddUserViewModel
+
 @{
     ViewData["Title"] = "Create Account";
 }
@@ -8,9 +10,9 @@
             <div class="login-logo" style="background-image: url('/images/login_logo.png');"></div>
         </a>
         <h1>Create Account</h1>
-        <form>
-            <label for="username">User ID</label>
-            <input type="text" id="username" name="username" required>
+        <form method="post" action="Create">
+            <label for="username">Username</label>
+            <input asp-for="Username" type="text" id="username" name="username" required>
 
             <br>
 
@@ -20,7 +22,7 @@
             <br>
 
             <label for="password">Confirm Password</label>
-            <input type="password" id="password" name="password" required>
+            <input asp-for="Password" type="password" id="password" name="password" required>
 
             <br>
             <br>

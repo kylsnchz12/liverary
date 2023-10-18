@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using project_admin.Models.Domain;
+using project_admin.Models;
 
 namespace project_admin.Data
 {

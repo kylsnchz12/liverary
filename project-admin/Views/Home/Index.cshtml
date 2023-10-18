@@ -2,7 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<body>
+    <div class="main-login">
+        <div class="login-logo" style="background-image: url('/images/login_logo.png');"></div>
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+
+            <a href="#" id="create-account">Create Account</a>
+
+            <br>
+
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+</body>

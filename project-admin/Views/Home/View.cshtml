@@ -1,0 +1,25 @@
+@model project_admin.Models.UpdateUserViewModel
+
+<a asp-area="" asp-controller="Home" asp-action="Index">
+    <h3>Back</h3>
+</a>
+<h1>Edit User</h1>
+<form method="post" action="View" class="mt-5">
+    <div class="mb-3">
+        <label for="username">UserID</label>
+        <input asp-for="UserID" readonly type="text" id="username" name="username" required>
+    </div>
+    <div class="mb-3">
+        <label for="username">Username</label>
+        <input asp-for="Username" type="text" id="username" name="username" required>
+    </div>
+
+    <label for="password">Password</label>
+    <input asp-for="Password" type="password" id="password" name="password" required>
+
+    <br>
+    <br>
+
+    <button type="submit" id="create">Create Account</button>
+</form>
+

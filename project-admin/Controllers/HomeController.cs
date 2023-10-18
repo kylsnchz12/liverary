@@ -59,6 +59,25 @@ public class HomeController : Controller
         return View(users);
     }
 
+    [HttpGet]
+    public async Task<IActionResult> View(Guid userID)
+    {
+        var user = await _appDbContext.Users.FirstOrDefaultAsync(x => x.UserID == userID);
+
+        if(user != null)
+        {
+            var viewModel = new UpdateUserViewModel()
+            {
+                UserID = user.UserID,
+                Username = user.Username,
+                Password = user.Password
+            };
+            return View(viewModel);
+        }
+
+        return RedirectToAction(nameof(Index));
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

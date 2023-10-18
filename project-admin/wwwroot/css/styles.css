@@ -438,7 +438,7 @@ form {
 
 input[type="text"],
 input[type="password"] {
-        width: 473px;
+        width: 500px;
         height: 40px;
         margin: 5px 0;
         border: 1px solid #ccc;
@@ -472,4 +472,24 @@ button {
     cursor: pointer;
     width: 473px;
     height: 40px;
+}
+
+.right-login {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5E17EB;
+    position: relative;
+}
+
+.login-body {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.login-word {
+    height: 495px;
+    width: 671px;
+    background-color: transparent;
+    margin: 100px;
+    margin-left: 30px;
 }

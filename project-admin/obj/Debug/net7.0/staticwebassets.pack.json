@@ -41,8 +41,16 @@
       "PackagePath": "staticwebassets/images/js_bg.png"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/login_logo.png",
+      "PackagePath": "staticwebassets/images/login_logo.png"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/logo.png",
       "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/logoword.png",
+      "PackagePath": "staticwebassets/images/logoword.png"
     },
     {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/ms_bg.png",

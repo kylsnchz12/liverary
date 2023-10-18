@@ -460,7 +460,7 @@ label {
     display: block;
     font-size: 14px;
     color: #5E17EB;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 button {
@@ -492,4 +492,8 @@ button {
     background-color: transparent;
     margin: 100px;
     margin-left: 30px;
+}
+
+#create{
+    margin-left: 10px;
 }

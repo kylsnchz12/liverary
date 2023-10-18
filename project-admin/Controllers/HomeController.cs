@@ -8,6 +8,7 @@ using project_admin.Data;
 using Microsoft.AspNetCore.Mvc;
 using project_admin.Data; 
 using Microsoft.Extensions.Logging; 
+using Microsoft.EntityFrameworkCore;
 
 public class HomeController : Controller
 {
@@ -49,6 +50,13 @@ public class HomeController : Controller
         _appDbContext.Add(user);
         await _appDbContext.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> UserList()
+    {
+        var users = await _appDbContext.Users.ToListAsync();
+        return View(users);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,25 +1,25 @@
 @model project_admin.Models.UpdateUserViewModel
 
-<a asp-area="" asp-controller="Home" asp-action="Index">
-    <h3>Back</h3>
-</a>
-<h1>Edit User</h1>
-<form method="post" action="View" class="mt-5">
-    <div class="mb-3">
-        <label for="username">UserID</label>
-        <input asp-for="UserID" readonly type="text" id="username" name="username" required>
+<div class="content-wrapper">
+    <div class='left-details'>
+        <div class="crud-logo" style="background-image: url('/images/crud_logo.png');"></div>
+            <a asp-area="" asp-controller="Home" asp-action="UserList">
+                <p class="logout">Back</p>
+            </a>
     </div>
-    <div class="mb-3">
-        <label for="username">Username</label>
-        <input asp-for="Username" type="text" id="username" name="username" required>
+    <div class="right-details">
+        <h1 class="edit-title">Edit User</h1>
+            <form method="post" action="View" class="edit-user">
+                <label for="username">UserID</label>
+                <input asp-for="UserID" readonly type="text" id="username" name="username" required>
+                <label for="username">Username</label>
+                <input asp-for="Username" type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input asp-for="Password" type="password" id="password" name="password" required>
+
+                <br>
+
+            <button type="submit" id="create">Create Account</button>
+        </form>
     </div>
-
-    <label for="password">Password</label>
-    <input asp-for="Password" type="password" id="password" name="password" required>
-
-    <br>
-    <br>
-
-    <button type="submit" id="create">Create Account</button>
-</form>
-
+</div>

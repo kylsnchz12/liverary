@@ -1,27 +1,38 @@
 @model List<project_admin.Models.User>
 
 
-<a asp-area="" asp-controller="Home" asp-action="Index">
+@* <a asp-area="" asp-controller="Home" asp-action="Index">
     <h3>Back</h3>
-</a>
-<h1>Users</h1>
-<table class="table">
-    <thead>
-        <tr>
-            <th>UserID</th>
-            <th>Username</th>
-            <th>Password</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var user in Model)
-        {
-            <tr>
-                <td>@user.UserID</td>
-                <td>@user.Username</td>
-                <td>@user.Password</td>
-                <td><a href="/Home/View?userID=@user.UserID">View</a></td>
-            </tr>
-        }
-    </tbody>
-</table>
+</a> *@
+<div class="content-wrapper">
+    <div class="left-details">
+        <div class="crud-logo" style="background-image: url('/images/crud_logo.png');"></div>
+            <a asp-area="" asp-controller="Home" asp-action="Index">
+                <p class="logout">Logout</p>
+            </a>
+    </div>
+    <div class="right-details">
+        <h1>Admins</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>UserID</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var user in Model)
+                {
+                    <tr>
+                        <td>@user.UserID</td>
+                        <td>@user.Username</td>
+                        <td>@user.Password</td>
+                        <td><a href="/Home/View?userID=@user.UserID">View</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

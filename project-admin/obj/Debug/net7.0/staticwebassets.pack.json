@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/images/cover.png"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/crud_logo.png",
+      "PackagePath": "staticwebassets/images/crud_logo.png"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/download_icon.png",
       "PackagePath": "staticwebassets/images/download_icon.png"
     },

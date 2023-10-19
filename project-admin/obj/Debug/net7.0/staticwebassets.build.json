@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vMo8FRyvub4ZJq3RUfwqlazdacJrxsx/YZ57P5d/jXw=",
+  "Hash": "HeTTarMW5lVTKTqX9l/j/Q864FO+hO7g7h2tAnzYPNo=",
   "Source": "project-admin",
   "BasePath": "_content/project-admin",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/cover.png"
+    },
+    {
+      "Identity": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/crud_logo.png",
+      "SourceId": "project-admin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/",
+      "BasePath": "_content/project-admin",
+      "RelativePath": "images/crud_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/crud_logo.png"
     },
     {
       "Identity": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/images/download_icon.png",

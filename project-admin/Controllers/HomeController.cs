@@ -72,10 +72,40 @@ public class HomeController : Controller
                 Username = user.Username,
                 Password = user.Password
             };
-            return View(viewModel);
+            return await Task.Run(() => View("View", viewModel));
         }
 
         return RedirectToAction(nameof(Index));
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> View(UpdateUserViewModel model)
+    {
+        var user = await _appDbContext.Users.FindAsync(model.UserID);
+
+        if(user != null)
+        {
+            user.UserID = model.UserID;
+            user.Username = model.Username;
+            user.Password = model.Password;
+
+            await _appDbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(UserList));
+        }
+        return RedirectToAction(nameof(Index)); 
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Delete(UpdateUserViewModel model)
+    {
+        var user = await _appDbContext.Users.FindAsync(model.UserID);
+        if(user != null)
+        {
+            _appDbContext.Users.Remove(user);
+            await _appDbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(UserList));
+        }
+        return RedirectToAction(nameof(Index)); 
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

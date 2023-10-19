@@ -531,3 +531,8 @@ button {
     margin-left: 50px;
     margin-top: 60px;
 }
+
+.delete {
+    margin-left: 12px;
+    margin-top: 12px;
+}

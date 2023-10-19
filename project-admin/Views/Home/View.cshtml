@@ -11,7 +11,7 @@
         <h1 class="edit-title">Edit User</h1>
             <form method="post" action="View" class="edit-user">
                 <label for="username">UserID</label>
-                <input asp-for="UserID" readonly type="text" id="username" name="username" required>
+                <input asp-for="UserID" readonly type="text" id="userID" name="userID" required>
                 <label for="username">Username</label>
                 <input asp-for="Username" type="text" id="username" name="username" required>
                 <label for="password">Password</label>
@@ -19,7 +19,11 @@
 
                 <br>
 
-            <button type="submit" id="create">Create Account</button>
+            <button type="submit" id="create">Update</button>
+            <br>
+            <div class="delete">
+                <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Home">Delete</button>
+            </div>
         </form>
     </div>
 </div>

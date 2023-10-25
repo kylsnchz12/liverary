@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/kyle/Desktop/GitHub/liverary/project-admin
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Home/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGUuY3NodG1s
+[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Account/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Vc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Account/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9WaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Home/Index.cshtml]
@@ -26,14 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Home/UserList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Vc2VyTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Home/View.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9WaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/kyle/Desktop/GitHub/liverary/project-admin/Views/Shared/Error.cshtml]

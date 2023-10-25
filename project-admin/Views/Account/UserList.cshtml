@@ -7,7 +7,7 @@
 <div class="content-wrapper">
     <div class="left-details">
         <div class="crud-logo" style="background-image: url('/images/crud_logo.png');"></div>
-            <a asp-area="" asp-controller="Home" asp-action="Index">
+            <a asp-area="" asp-controller="Account" asp-action="Login">
                 <p class="logout">Logout</p>
             </a>
     </div>
@@ -29,7 +29,7 @@
                         <td>@user.UserID</td>
                         <td>@user.Username</td>
                         <td>@user.Password</td>
-                        <td><a href="/Home/View?userID=@user.UserID">View</a></td>
+                        <td><a href="/Account/View?userID=@user.UserID">View</a></td>
                     </tr>
                 }
             </tbody>

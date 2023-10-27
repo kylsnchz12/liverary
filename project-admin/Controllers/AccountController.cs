@@ -39,7 +39,7 @@ public class AccountController : Controller {
 
         _appDbContext.Add(user);
         await _appDbContext.SaveChangesAsync();
-        return RedirectToAction(nameof(Index));
+        return RedirectToAction(nameof(Login));
     }
 
     [HttpGet]
@@ -65,7 +65,7 @@ public class AccountController : Controller {
             return await Task.Run(() => View("View", viewModel));
         }
 
-        return RedirectToAction(nameof(Index));
+        return RedirectToAction(nameof(Login));
     }
 
     [HttpPost]
@@ -82,7 +82,7 @@ public class AccountController : Controller {
             await _appDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(UserList));
         }
-        return RedirectToAction(nameof(Index)); 
+        return RedirectToAction(nameof(Login)); 
     }
 
     [HttpPost]
@@ -95,7 +95,7 @@ public class AccountController : Controller {
             await _appDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(UserList));
         }
-        return RedirectToAction(nameof(Index)); 
+        return RedirectToAction(nameof(Login)); 
     }
 
 }

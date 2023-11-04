@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="login-body">
+    <div class="main-login">
+        <div class="login-logo" style="background-image: url('/images/login_logo.png');"></div>
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <a asp-area="" asp-controller="Account" asp-action="Create"></a>
+            <a href="/Account/Create" id="create-account">Create Account</a>
+
+            <br>
+            <a asp-area="" asp-controller="Account" asp-action="UserList">View Users</a>
+
+            <br>
+
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+    <div class="right-login">
+        <div class="login-word" style="background-image: url('/images/logoword.png');"></div>
+    </div>
+</div>

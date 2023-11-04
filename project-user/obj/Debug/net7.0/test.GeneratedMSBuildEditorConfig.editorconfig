@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/kyle/Desktop/GitHub/liverary/project-user
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/kyle/Desktop/GitHub/liverary/project-user/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kyle/Desktop/GitHub/liverary/project-user/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kyle/Desktop/GitHub/liverary/project-user/Views/Account/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Vc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/kyle/Desktop/GitHub/liverary/project-user/Views/Account/ViewDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9WaWV3RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/kyle/Desktop/GitHub/liverary/project-user/Views/Home/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

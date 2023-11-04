@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/css/home_styles.css",
+      "PackagePath": "staticwebassets/css/home_styles.css"
+    },
+    {
       "Id": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

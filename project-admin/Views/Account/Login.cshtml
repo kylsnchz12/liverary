@@ -4,16 +4,18 @@
 
 <div class="login-body">
     <div class="main-login">
-        <div class="login-logo" style="background-image: url('/images/login_logo.png');"></div>
+        <a asp-area="" asp-controller="Home" asp-action="Index">
+            <div class="login-logo" style="background-image: url('/images/login_logo.png');"></div>
+        </a>
         <h1>Login</h1>
         <form>
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
+            <label id="mylabel" for="username">Username</label>
+            <input id="myInput" type="text" id="username" name="username" required>
 
             <br>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <label id="mylabel" for="password">Password</label>
+            <input id="myInput" type="password" id="password" name="password" required>
 
             <a asp-area="" asp-controller="Account" asp-action="Create"></a>
             <a href="/Account/Create" id="create-account">Create Account</a>
@@ -23,7 +25,7 @@
 
             <br>
 
-            <button type="submit">Sign in</button>
+            <button id="mybutton" type="submit">Sign in</button>
         </form>
     </div>
     <div class="right-login">

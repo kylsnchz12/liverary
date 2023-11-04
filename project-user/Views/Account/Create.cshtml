@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Create Account";
+}
+
+<div class="login-body">
+    <div class="main-login">
+        <a href="/" id="create-account">
+            <div class="login-logo" style="background-image: url('/images/login_logo.png');"></div>
+        </a>
+        <h1>Create Account</h1>
+        <form method="post" action="Create">
+            <label for="username">Username</label>
+            <input asp-for="Username" type="text" id="username" name="username" required>
+
+            <br>
+
+            <label for="password">Create Password</label>
+            <input asp-for="Password" type="password" id="password" name="password" required>
+
+            <br>
+
+            <label for="password">Confirm Password</label>
+            <input asp-for="ConfirmPassword" type="password" id="password" name="password" required>
+
+            <br>
+            <br>
+
+            <button type="submit" id="create">Create Account</button>
+        </form>
+    </div>
+    <div class="right-login">
+        <div class="login-word" style="background-image: url('/images/logoword.png');"></div>
+    </div>
+</div>

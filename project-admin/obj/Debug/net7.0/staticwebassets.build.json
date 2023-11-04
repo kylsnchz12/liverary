@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HeTTarMW5lVTKTqX9l/j/Q864FO+hO7g7h2tAnzYPNo=",
+  "Hash": "SK6FlK9GbtVnAVZ23QMV5fOfswT7iQjrwvQQD3xWnvY=",
   "Source": "project-admin",
   "BasePath": "_content/project-admin",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/css/home_styles.css",
+      "SourceId": "project-admin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/",
+      "BasePath": "_content/project-admin",
+      "RelativePath": "css/home_styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/home_styles.css"
     },
     {
       "Identity": "/Users/kyle/Desktop/GitHub/liverary/project-admin/wwwroot/css/site.css",

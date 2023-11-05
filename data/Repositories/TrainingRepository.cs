@@ -9,8 +9,14 @@ using System.Threading.Tasks;
 
 namespace liverary.data.Repositories
 {
-    public class TrainingRepository : ITrainingRepository
+    public class TrainingRepository : BaseRepository, ITrainingRepository
     {
+
+        public TrainingRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        {
+
+        }
+
 
         public IQueryable<Training> GetTrainings()
         {
@@ -75,7 +81,9 @@ namespace liverary.data.Repositories
 
                 // Save the changes
                 this.SaveChanges();
-            }p
+                UnitOfWork.SaveChanges();
+            }
+            p
             else
             {
                 // Handle the case where the training record was not found

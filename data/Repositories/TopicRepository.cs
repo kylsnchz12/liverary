@@ -8,8 +8,14 @@ using System.Threading.Tasks;
 
 namespace liverary.data.Repositories
 {
-    public class TopicRepository : ITopicRepository
+    public class TopicRepository : BaseRepository, ITopicRepository
     {
+
+        public TopicRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
+        {
+
+        }
+
         public IQueryable<Topic> GetTopics()
         {
             return this.GetDbSet<Topic>();
@@ -41,6 +47,7 @@ namespace liverary.data.Repositories
 
             // Save the changes
             this.SaveChanges();
+            UnitOfWork.SaveChanges();
         }
 
         public void DeleteTopic(string topicId)
@@ -58,6 +65,7 @@ namespace liverary.data.Repositories
 
                 // Save the changes
                 this.SaveChanges();
+                UnitOfWork.SaveChanges();
             }
             else
             {
